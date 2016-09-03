@@ -1,0 +1,17 @@
+{
+  "name": "scoreboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jQuery": "^1.7.4",
+    "requirejs": "^2.2.0",
+    "slideout": "^0.1.12"
+  }
+}

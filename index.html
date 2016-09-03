@@ -1,0 +1,53 @@
+<html>
+<head>
+	<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap-theme.min.css" />
+
+	<link rel="stylesheet" href="./css/style.css" />
+
+	<title>Scoreboard</title>
+</head>
+
+<body>
+<nav id="menu">
+  <header>
+    <h2>Menu</h2>
+  </header>
+  
+</nav>
+
+<main id="panel">
+  <header>
+    <span class="glyphicon glyphicon-menu-hamburger panel"></span>
+  </header>
+</main>
+
+	<div class="row">
+		<h2 class="title">Scoreboard</h2>
+	</div>	
+
+	<div class="row">
+		<div class="col-sm-6 score-display" id="score-display-1"></div>
+		<div class="col-sm-6 score-display" id="score-display-2"></div>
+	</div>
+
+
+	<div class="legend">
+	<ul>
+		<li>key -> action</li>
+		<li>1 -> p1 add point</li>
+		<li>2 -> p2 add point</li>
+		<li>q -> p1 subtract point</li>
+		<li>w -> p2 subtract point</li>
+		<li>m -> menu</li>
+		<li>r -> reset</li>
+	</ul>
+	</div>
+
+</body>
+	<script src="./node_modules/slideout/dist/slideout.min.js"></script>
+	<script type="text/javascript">
+		require('./app');
+		require('bootstrap');
+</script>
+</html>
